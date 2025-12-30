@@ -4,7 +4,8 @@ int main()
 {
  char Letter;
 
- Letter = 73;
+ printf ("enter a letter=");
+ scanf ("%c", &Letter);
 
  if (Letter >= 65 && Letter <=90)
 
